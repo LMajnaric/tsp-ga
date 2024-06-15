@@ -14,7 +14,7 @@ Assume:
 -    $g$ - total number of generations.
 
 **Without** distance matrix $n$ distances is computer for each route. For a population of size $p$, this happens $p$ times per generation:
-$$T=g*p*n$$
+$$T=g * p* n$$
 On the other hand, **with** a distance matrix, the distances are fetched from it:
 $$T=g*p$$
 
